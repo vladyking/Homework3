@@ -2,7 +2,7 @@ public class Task3
 {
     public static void main(String[] args)
     {
-        //Задание №2
+        //Задание №3
         System.out.println ("Ответ на задание №3:");
         int year = 2022;
         if (year % 100 == 0 && year % 400 == 0) {
