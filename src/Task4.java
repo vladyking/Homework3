@@ -5,7 +5,7 @@ public class Task4
     public static void main(String[] args)
     {
         //Задание №2
-       /* System.out.println ("Ответ на задание №3:");
+       /* System.out.println ("Ответ на задание №4:");
         int deliveryDistance = 95;
         if (year % 100 == 0 && year % 400 == 0) {
             System.out.println (year + " год является високосным годом\n");
