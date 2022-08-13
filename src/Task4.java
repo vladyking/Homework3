@@ -8,10 +8,10 @@ public class Task4
         int deliveryDays = 1;
         int deliveryStartInterval = 20;
         int deliveryInterval = 40;
-        if (deliveryDistance <= deliveryStartInterval)        {
+        if (deliveryDistance <= deliveryStartInterval) {
             deliveryDays = 1;
         } else {
-            deliveryDays = deliveryDays + (int)Math.ceil((deliveryDistance - deliveryStartInterval) / deliveryInterval+1);
+            deliveryDays = deliveryDays + (int)Math.ceil((deliveryDistance - deliveryStartInterval) / (double)deliveryInterval);
         }
         System.out.println ("Потребуется для доставки дней: " + deliveryDays);
     }
