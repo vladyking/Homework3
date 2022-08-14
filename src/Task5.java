@@ -1,7 +1,5 @@
-public class Task5
-{
-    public static void main(String[] args)
-    {
+public class Task5 {
+    public static void main(String[] args) {
         //Задание №5. Вариант 1
             /*System.out.println ("Ответ на задание №5:");
         int monthNumber = 8;
@@ -45,7 +43,7 @@ public class Task5
             default:
                 System.out.println("Такого месяца не существует");*/
         //Задание №5. Вариант 2
-        System.out.println ("Ответ на задание №5:");
+        System.out.println("Ответ на задание №5:");
         int monthNumber = 8;
         switch (monthNumber) {
             case 1:
@@ -53,7 +51,7 @@ public class Task5
             case 12:
                 System.out.println("Зима");
                 break;
-            case 3-5:
+            case 3:
             case 4:
             case 5:
                 System.out.println("Весна");
